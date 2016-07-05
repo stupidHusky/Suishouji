@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:id="@+id/billitem_tv_id1"
+                    android:text="11月" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:id="@+id/billitem_tv_id2"
+                    android:text="0.00" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/billitem_tv_id3"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:text="0.00" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/billitem_tv_id4"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:text="0.00" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/billitem_tv_id5"
+                    android:layout_marginLeft="11dp"
+                    android:text="11.01-11.31"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/billitem_tv_id6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="收入"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:id="@+id/billitem_tv_id7"
+                    android:text="支出"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:id="@+id/billitem_tv_id8"
+                    android:text="结余"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

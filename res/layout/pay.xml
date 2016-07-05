@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F4F4F4"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:background="#FAC736"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/pay_back_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/_"
+            android:textColor="#090601"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/pay_add_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="新增支出"
+            android:gravity="center_vertical"
+            android:textColor="#090601"
+            android:textSize="20sp" />
+		<ImageView android:layout_height="wrap_content"
+		    android:id="@+id/pay_next_id"
+		    android:layout_width="wrap_content"
+		    android:src="@drawable/icon_next"/>
+        <TextView
+            android:id="@+id/pay_save_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:textColor="#090601"
+            android:text="√保存" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            
+            android:id="@+id/pay_money_id"
+            android:inputType="numberDecimal"
+            android:hint="0.00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="类别" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:background="#212121"
+            android:text="其他杂项" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="#212121"
+            android:text=">" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:entries="@array/pays"
+            android:id="@+id/pay_type_id"
+            android:text="其他支出" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:text="+"
+            android:id="@+id/pay_addpay_id"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#C3C4C3" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#F3F3F3"
+        android:text="支出名目" />
+
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/pay_date_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015年12月25日" />
+        <TextView
+            android:id="@+id/pay_time_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12时12分" />
+
+        <Spinner
+            android:id="@+id/pay_people_id"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginLeft="40dp"
+            android:entries="@array/item" />
+
+    </LinearLayout>
+ <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#C3C4C3" />
+ <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#F3F3F3"
+        android:text="明细" />
+ 
+ <EditText android:layout_height="wrap_content"
+     android:hint="请填写备注信息"
+     android:layout_marginTop="10dp"
+     android:id="@+id/pay_comment_id"
+     android:layout_width="fill_parent"
+     android:inputType="textMultiLine"
+     android:minLines="6"/>
+
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:orientation="horizontal" >
+
+ 	    <Button
+ 	        android:id="@+id/payBut1ID"
+ 	        android:layout_width="65dp"
+ 	        android:layout_height="43dp"
+ 	        android:layout_weight="1"
+ 	        android:layout_marginLeft="3dp"
+ 	        android:background="#FDA428"
+ 	        android:text="保存" />
+
+ 	    <Button
+ 	        
+ 	        android:id="@+id/payBut2ID"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	       
+ 	         android:layout_weight="1"
+ 	        android:layout_marginLeft="10dp"
+ 	        android:text="保存模版" />
+
+ 	    <Button
+ 	        android:id="@+id/payBut3ID"
+ 	         android:layout_weight="1"
+ 	         android:layout_marginLeft="10dp"
+ 	        android:layout_width="wrap_content"
+ 	        android:layout_height="wrap_content"
+ 	        android:text="再记一笔" />
+ 	</LinearLayout>
+
+</LinearLayout>

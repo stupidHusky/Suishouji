@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="item">
+        <item>无成员</item>
+        <item>父母</item>
+        <item>子女</item>
+        <item>伴侣</item>
+        <item>全体成员</item>
+    </array>
+    <array name="pays">
+        <item>交通</item>
+        <item>请客</item>
+        <item>吃饭</item>
+        <item>泡妞</item>
+        <item>打架</item> 
+    </array>
+    <array name="other_income_id"><item>其他收入</item>
+        <item>工资</item>
+        <item>奖励</item>
+        <item>股市</item>
+        <item>中奖</item> </array>
+    <array name="years"> <item>2016年</item>
+        <item>2015年</item>
+        <item>2014年</item>
+        <item>2013年</item></array>
+
+</resources>

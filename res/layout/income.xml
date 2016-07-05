@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:background="#FAC736"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/income_back_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/_"
+            android:textColor="#6D3B07"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/pay_add_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="新增收入"
+            android:textColor="#6D3B07"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/pay_pre_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_pre" />
+
+        <TextView
+            android:id="@+id/pay_save_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:text="√保存"
+            android:textColor="#6D3B07" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ic_launcher" />
+
+        <EditText
+            android:id="@+id/income_money_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:gravity="right"
+            android:hint="0.00"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="类别"
+            android:textColor="#372F2F"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/income_sp_id"
+           
+            android:layout_width="111dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="33dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:textColor="#372F2F"
+            android:textSize="18sp" />
+
+        <Spinner
+             android:id="@+id/income_sp_id2"
+            android:layout_width="111dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1dp" />
+
+        <TextView
+            android:id="@+id/incom_add_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:text="+"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="11dp"
+        android:background="#C3C4C3" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="账户"
+            android:textColor="#372F2F"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/income_otheraccount1_id"
+            android:layout_width="111dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="33dp" />
+
+        <TextView
+            android:id="@+id/income_otheraccount2text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:textColor="#372F2F"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/income_otheraccount2_id"
+            android:layout_width="111dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#C3C4C3" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#959999" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="请填写备注" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/income_comment_id"
+        android:inputType="textMultiLine"
+        android:minLines="5" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/incomeBut1ID"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="22dp"
+            android:background="#FDA420"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/incomeBut2ID"
+            android:layout_width="80dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="保存模版" />
+
+        <Button
+            android:id="@+id/incomeBut3ID"
+            android:layout_width="80dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="再记一笔" />
+    </LinearLayout>
+
+</LinearLayout>

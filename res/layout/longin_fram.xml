@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:background="#b9ac3f"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_tou_id"
+            android:src="@drawable/suite_info_double_src" />
+
+        <LinearLayout
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+ <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="用户名:" />
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:id="@+id/login_frame_name_id"
+                android:text="用户名:" />
+              
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textColor="#000000"
+                android:text="邮箱:" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#FAC837"
+            android:text="同步" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+         android:textColor="#000000"
+        	android:text="同步账本（1）"
+        />
+
+    <ImageView
+        android:layout_width="66dp"
+        android:layout_height="78dp"
+        android:src="@drawable/suite_bg_for_benefit" />
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+         android:textColor="#000000"
+        android:text="本地账本"/>
+
+    	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:orientation="horizontal" >
+
+    	    <ImageView
+    	        android:layout_width="70dp"
+    	        android:layout_height="79dp"
+    	        android:src="@drawable/suite_bg_for_travel_new" />
+    	    <ImageView
+    	        android:layout_width="70dp"
+    	        android:layout_height="79dp"
+    	        android:src="@drawable/suite_bg_for_travel" />
+    	</LinearLayout>
+
+</LinearLayout>

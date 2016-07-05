@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F5F5F5"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#FCB340"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="4dp"
+            android:onClick="goBack"
+            android:src="@drawable/abc_ic_ab_back_holo_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="账户"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:src="@drawable/icon_action_bar_more" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:text="+"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#816A4F"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="净资产"
+            android:textColor="#F5F5F5"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="178dp"
+            android:text="0.00"
+            android:id="@+id/acc_allmoney_id"
+            android:textColor="#F5F5F5"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <TextureView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#D1D1D1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#816A4F"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="资产:"
+            android:textColor="#F5F5F5"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="￥"
+            android:textColor="#F5F5F5"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="0.00"
+             android:id="@+id/acc_allmoney2_id"
+            android:textColor="#F5F5F5"
+            android:textSize="17sp" />
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="1dp"
+            android:layout_marginLeft="50dp"
+            android:background="#D1D1D1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="负债："
+            android:textColor="#F5F5F5"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:text="￥"
+            android:textColor="#F5F5F5"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="0.00"
+            android:textColor="#F5F5F5"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="28dp"
+		android:layout_marginTop="8dp"        
+        android:layout_width="fill_parent"
+        android:background="#ECE8EC"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="现金账户"
+            android:textColor="#878587"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="155dp"
+            android:text="0.00"
+            android:id="@+id/acc_all_moneyt_id"
+            android:textColor="#878587"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="其他" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CNY|现金口袋" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="3dp"
+            android:text="￥"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:text="0.00"
+            android:id="@+id/acc_others_id"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/sms_bind_wizard_right_arrow" />
+    </LinearLayout>
+	<TextView android:layout_height="1dp"
+	    android:layout_width="fill_parent"
+	    android:layout_marginTop="3dp"
+	    android:background="#D0D1D0"/>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="现金" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CNY|现金口袋" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="3dp"
+            android:text="￥"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:text="0.00"
+             android:id="@+id/acc_money_id"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/sms_bind_wizard_right_arrow" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:background="#ECE8EC"
+        
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="信用卡账户"
+            android:textColor="#878587"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:text="0.00"
+            android:id="@+id/acc_all_crecard_id"
+            android:textColor="#878587"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:text="信用卡" />
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:text="CNY|信用卡" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="3dp"
+            android:text="￥"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:text="0.00"
+             android:id="@+id/acc_credCard_id"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/sms_bind_wizard_right_arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="5dp"
+        android:background="#ECE8EC"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="0.00"
+            android:text="金融账户"
+            android:textColor="#878587"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:text="0.00"
+            android:id="@+id/acc_all_finance_id"
+            android:textColor="#878587"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="存折" />
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                android:text="CNY|存折   " />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="3dp"
+            android:text="￥"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:text="0.00"
+             android:id="@+id/acc_bankbook_id"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/sms_bind_wizard_right_arrow" />
+    </LinearLayout>
+    <TextView android:layout_height="1dp"
+	    android:layout_width="fill_parent"
+	    android:layout_marginTop="3dp"
+	    android:background="#D0D1D0"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:textColor="#000000"
+                android:text="银行卡" />
+
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:text="CNY|储蓄卡" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="3dp"
+            android:text="￥"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:text="0.00"
+             android:id="@+id/acc_bankcard_id"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/sms_bind_wizard_right_arrow" />
+    </LinearLayout>
+</LinearLayout>
